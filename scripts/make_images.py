@@ -11,5 +11,5 @@ def make_images(filepath):
         image.save("output_%02d.jpg" % index)
 
 if __name__ == '__main__':
-	filepath = "pdfs/pdf1.pdf"
+	filepath = "data/pdfs/pdf1.pdf"
 	make_images(filepath)
